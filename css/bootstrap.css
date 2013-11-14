@@ -13,7 +13,10 @@
 .end{
   margin-right: auto;
   margin-left: auto;
+}
 
+html{
+  background: #dae6e8;
 }
 
 .wrap{
@@ -93,7 +96,7 @@ border-width: 5px;
 .step-transition img {
   width: 100%;
   height: 10em;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
 }
 
 iframe {
@@ -134,8 +137,9 @@ iframe {
   width:20em;
   background: #2d3d43;
   color:#92afb5;
-  height:300em;
   width:100%;
+  border-bottom-color: #2d3d43;
+  border-bottom-width:5em;
 }
 
 .second-chunk-text{
@@ -150,6 +154,7 @@ iframe {
   margin-right: auto;
   width:40em;
   color:#5b7074;
+  background: #dae6e8;
 }
 
 .contact-form-text {
@@ -410,7 +415,7 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #dae6e8;
 }
 
 a {
@@ -1208,7 +1213,7 @@ pre code {
 }
 
 form {
-  margin: 0 0 20px;
+  margin: 0 0 2em;
 }
 
 fieldset {
@@ -5392,7 +5397,7 @@ input[type="submit"].btn.btn-mini {
   top: 10%;
   left: 50%;
   z-index: 1050;
-  width: 560px;
+  width: 80%;
   margin-left: -280px;
   background-color: #ffffff;
   border: 1px solid #999;
