@@ -1293,6 +1293,13 @@ input[type="color"],
 }
 */
 
+select,
+textarea,
+input[type="text"] {
+  display: inline;
+  font-size: 38px;
+}
+
 input,
 textarea,
 .uneditable-input {
