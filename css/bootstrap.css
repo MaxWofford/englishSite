@@ -101,9 +101,10 @@ iframe {
 }
 
 .date-text {
-  margin-top: 5em;
-
+  margin-top: 2.5em;
+  text-align: center;
 }
+
 
 .schedule-box {
   border-color: #92afb5;
@@ -112,6 +113,8 @@ iframe {
   border-radius: 3em;
   margin-left: auto;
   margin-right: auto;
+  width: 900px;
+  background: #E3E9FF;
 }
 
 /*input {
