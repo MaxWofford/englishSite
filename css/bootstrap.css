@@ -15,6 +15,12 @@
   margin-left: auto;
 }
 
+input[type="image"]{
+  height: 12em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 html{
   background: #dae6e8;
 }
@@ -1378,7 +1384,6 @@ input[type="checkbox"] {
 }
 
 input[type="file"],
-input[type="image"],
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
