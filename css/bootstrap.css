@@ -15,6 +15,13 @@
   margin-left: auto;
 }
 
+input[type="image"]:focus{
+  height: 12em;
+  margin-right: auto;
+  margin-left: auto;
+  background: #dae6e8;
+}
+
 input[type="image"]{
   height: 12em;
   margin-right: auto;
