@@ -10,6 +10,20 @@
 @import url(http://fonts.googleapis.com/css?family=Karla);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
 
+.caution-banner{
+  display: block;
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  margin-bottom: 0;
+}
+
+.caution-banner img
+{
+  width: 100%;
+}
+
 .end{
   margin-right: auto;
   margin-left: auto;
@@ -44,7 +58,6 @@ html{
 
 input{
   font-family:'Helvetica Neue', Helvetica, Arial, sans-serif, Ubuntu;
-
   border:0;
   border-bottom:1px solid #ff5407;
   width:100%;
@@ -54,11 +67,11 @@ input{
   display: block;
   font-weight: bold;
   height: 60px;
+  box-shadow: none;
   /*margin-bottom: 10px;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 10px;*/
-  topext-rendering: optimizelegibility;
   text-transform:uppercase;
 }
 
@@ -1314,6 +1327,8 @@ textarea,
 input[type="text"] {
   display: inline;
   font-size: 38px;
+  background: #DAE6E8;
+  box-shadow:none;
 }
 
 input,
@@ -1371,9 +1386,9 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: rgba(82, 168, 236, 0.8);
+ /* border-color: rgba(82, 168, 236, 0.8);*/
   outline: 0;
-  outline: thin dotted \9;
+  /*outline: thin dotted \9;*/
   display: inline;
   /* IE6-9 */
 
