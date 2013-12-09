@@ -11,7 +11,7 @@ if (isset($_POST['email']))
   $message, "From:" . $recipient);
  ;}
  ?>
- 
+
 <html>
 	<head>
 		<title>Essay Tutor</title>
@@ -69,7 +69,7 @@ if (isset($_POST['email']))
 			<div class="step-transition">
 				<img src="img/step2.jpg">
 			</div>
-<form method="post" action="http://someurl.com" target="_new">
+<form method="post" action="http://englishessaytutor.com" target="_new">
     <input name="name" value="" type="text" placeholder="Your First Name"  />
     <input name="from" value="" type="text"  placeholder="Your Best Email" />
     <input type="image" name="image" src="../img/end.svg" type="submit" />
