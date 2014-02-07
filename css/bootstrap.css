@@ -10,6 +10,18 @@
 @import url(http://fonts.googleapis.com/css?family=Karla);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
 
+/*img { 
+   color: #888777; 
+   -webkit-transition: color 1s ease-in;
+   -moz-transition: color 1s ease-in;
+   -o-transition: color 1s ease-in;
+   -ms-transition: color 1s ease-in;
+   transition: color 1s ease-in;
+} 
+img:hover {
+   color: #668899;
+}*/
+
 .caution-banner{
   display: block;
   position: fixed;
@@ -68,10 +80,6 @@ input{
   font-weight: bold;
   height: 60px;
   box-shadow: none;
-  /*margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 10px;*/
   text-transform:uppercase;
 }
 
@@ -141,6 +149,10 @@ iframe {
   margin-right: auto;
   width: 900px;
   background: #E3E9FF;
+  margin-bottom: 2em;
+  -webkit-box-shadow: 0px 0px 62px 9px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 62px 9px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 62px 9px rgba(0,0,0,0.75);
 }
 
 /*input {
@@ -163,15 +175,31 @@ iframe {
   background: #26374B;
   color:#92afb5;
   width:100%;
-  border-bottom-color: #26374B;
-  border-bottom-width:5em;
+  padding-bottom: 5em;
+  padding-top: 5em;
+}
+
+.second-chunk-size{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9em;
 }
 
 .second-chunk-text{
   width:50%;
   margin-left: auto;
-  margin-right: auto;  
-  margin-top: 9em;
+  margin-right: auto;
+  margin-top: 10em;
+}
+
+.second-chunk-text h1{
+  font-size: 6em;
+  line-height: 1em;
+  text-align: center;
+}
+
+.second-chunk-text h2{
+  text-align: center;
 }
 
 .contact-form {
@@ -218,7 +246,13 @@ width:1000px;
   text-align: center;
   margin-bottom: 10em;
   margin-top: 2em;
-  width:65em;
+  width:100%;
+}
+
+.upper-text h1{
+  font-size: 5em;
+  padding-top: .5em;
+  line-height: .05em;
 }
 
 .clearfix {
