@@ -221,7 +221,8 @@ iframe {
 }
 
 .end {
-width:1000px;
+width:100%;
+text-align: right;
 }
 
 /*input [type="text"] {
