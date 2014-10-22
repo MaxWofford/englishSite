@@ -9,6 +9,7 @@
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<link href="css/bootstrap-responsive.css" rel="stylesheet">
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="js/jquery.autosize.input.min.js"></script>
 		<script src="https://cdn.firebase.com/js/client/1.1.2/firebase.js"></script>
 		<script src="js/script.js"></script>
 	</head>
@@ -70,18 +71,16 @@
 			<div class="step-transition">
 				<img src="img/step2.jpg">
 			</div>
-			<!-- <form>  -->
-    			<div class="contact-form">
-    				<div class="contact-form-text">
-						<h2>DEAR JOSH, </h2><br>
-						<h2>I'M A STUDENT IN <input type="text" name="Grade">GRADE, AND I NEED SOME HELP WITH <input type="text" name="HelpRequest"> ON THE BOOK(S) <input type="text" id="form">. GIVE ME A CALL AT <input type="text" name="ClientPhone"> <h2>OR EMAIL ME AT <input type="text" id="email">.</h2>
-						<h2>HAVE A FRABJOUS DAY,</h2><br>
-						<input type="text" id="name"><br>
-						<div class="end" onclick="submit();">
-							<img type="image" src="img/end.svg" style="left: 75%;">
-						</div>
+			<div class="contact-form">
+				<div class="contact-form-text">
+					<h2>DEAR JOSH, </h2><br>
+					<h2>LET'S HAVE A CHAT ABOUT <input type="text" id="form" data-autosize-input='{ "space": 40 }'>.YOU CAN EMAIL ME AT<input type="text" id="email" data-autosize-input='{ "space": 40 }'>.</h2>
+					<h2>HAVE A FRABJOUS DAY,</h2><br>
+					<input type="text" id="name" data-autosize-input='{ "space": 40 }'><br>
+					<div class="end" onclick="submit();">
+						<img type="image" src="img/end.svg" style="left: 75%;">
 					</div>
 				</div>
-			<!-- </form> -->
+			</div>
 	</body>
 </html>

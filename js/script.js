@@ -8,4 +8,7 @@ function submit () {
 	var userName = $('#name').val();
 	// Push data to firebase
 	fb.push({userData: userData, userEmail: userEmail, userName: userName});
+	$('#form').val("");
+	$('#email').val("");
+	$('#name').val("");
 }
