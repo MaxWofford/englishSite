@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Essay Tutor</title>
 		<meta charset="utf-8">
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/bootstrap-responsive.css" rel="stylesheet">
-		<script src="js/jquery-1.10.2.js"></script>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale = 1.0,maximum-scale=2.0,user-scalable=yes">
 		<meta name="keywords" content="Josh Watchel, English, Essay, Writing, Tutor, Help">
 		<meta name="description" content="Need help with essay writing? Josh Watchel is a skilled english tutor with multiple years experience.">
+		<title>Essay Tutor</title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="https://cdn.firebase.com/js/client/1.1.2/firebase.js"></script>
+		<script src="js/script.js"></script>
 	</head>
 	<body>
 		<!--
@@ -68,18 +70,18 @@
 			<div class="step-transition">
 				<img src="img/step2.jpg">
 			</div>
-			<form action=""> 
+			<!-- <form>  -->
     			<div class="contact-form">
     				<div class="contact-form-text">
 						<h2>DEAR JOSH, </h2><br>
-						<h2>I'M A STUDENT IN <input type="text" name="Grade">GRADE, AND I NEED SOME HELP WITH <input type="text" name="HelpRequest"> ON THE BOOK(S) <input type="text" name="<h2>BookName">. GIVE ME A CALL AT <input type="text" name="ClientPhone"> <h2>OR EMAIL ME AT <input type="text" name="ClientEmail">.</h2>
+						<h2>I'M A STUDENT IN <input type="text" name="Grade">GRADE, AND I NEED SOME HELP WITH <input type="text" name="HelpRequest"> ON THE BOOK(S) <input type="text" id="form">. GIVE ME A CALL AT <input type="text" name="ClientPhone"> <h2>OR EMAIL ME AT <input type="text" id="email">.</h2>
 						<h2>HAVE A FRABJOUS DAY,</h2><br>
-						<input type="text" name="ClientName"><br>
-						<div class="end">
-							<input type="image" src="img/end.svg" value="Submit" style="left: 75%;">
+						<input type="text" id="name"><br>
+						<div class="end" onclick="submit();">
+							<img type="image" src="img/end.svg" style="left: 75%;">
 						</div>
 					</div>
 				</div>
-			</form>
+			<!-- </form> -->
 	</body>
 </html>
